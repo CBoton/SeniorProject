@@ -1,0 +1,268 @@
+.overlay-button {
+    cursor: pointer;
+    position: absolute;
+    z-index: 12;
+    fill: rgba(255,255,255,.50);
+    stroke: white;
+    stroke-width: 20;
+    display: block;
+    bottom: 15px;
+    right: 15px;
+    width: 30px;
+    height: auto;
+}
+
+.overlay-button:hover {
+    fill:#FFE044;
+    opacity: 60%;
+    stroke-width: 0;
+}
+
+.overlay-button.favorite {
+    opacity:100%;
+    fill: #ffe044;
+    stroke-width: 0;
+}
+
+.overlay-button.favorite:hover {
+    opacity:60%;
+}
+
+/*Muscle Diagram*/
+/*Unused*/
+.al-bot{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    flex: 1 1 auto;
+    flex-grow: 1;
+}
+/*Unused*/
+.card-growing{
+    width: auto !important;
+    height: 40vh !important;
+    flex-grow: 1 !important;
+}
+
+.muscle:hover path{
+    fill: #c52c2c;
+    cursor: pointer;
+}
+
+.physique-diagram{
+    width: auto;
+    height: auto;
+    max-height: 900px;
+    flex-grow: 1;
+}
+
+#info-box {
+    display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: #ffffff;
+    /*border: 2px solid #BF0A30;*/
+    border-radius: 5px;
+    padding: 5px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+/*Paged guides*/
+.page-nav {
+    float:left;
+    list-style-type:none;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.page-nav.page-button {
+}
+
+.page-nav.page-button.icon {
+    padding-top:.45em;
+    position:relative;
+}
+
+.page-nav.page-button.text {
+    font-size:1.25em;
+    padding-left:.1em;
+    padding-right:.05em;
+}
+
+.page-nav.page-button.current-page {
+    font-weight:bold;
+}
+
+.page-box {
+    padding-bottom: 0;
+}
+
+.guide-card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.guide-card:hover {
+    opacity: 90%;
+}
+
+.guide-card > .small-box-footer{
+    border-radius: 0 0 .25rem .25rem;
+    background: rgba(255,255,255,.8);
+}
+
+.guide-card > .small-box-footer:hover{
+    background: rgba(255,255,255,.95);
+}
+
+.guide-card :hover {
+    cursor: pointer;
+}
+
+.guide-card .inner {
+    position: relative;
+    height: 100%;
+}
+
+.guide-thumbnail {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.header.big-text {
+    font-size: 36px;
+    margin: -4px 0 0 0;
+    padding: 0;
+    line-height: 1;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.iframe-container {
+    overflow: hidden;
+    padding-top: 45.25%;
+    margin-top: 70px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    position: relative;
+}
+
+.iframe-container iframe {
+    border: 0;
+    height: 95%;
+    left: 2.5%;
+    resize: both;
+    position: absolute;
+    top: 2.5%;
+    width: 95%;
+}
+
+.testimonial {
+    height:20em;
+}
+
+.testimonials {
+    height:100%;
+    overflow:auto;
+}
+
+#plan-user-button {
+    white-space: nowrap;
+}
+
+.plan-disabled{
+    background-color: #E4E4E4;
+    color: #888888 !important;
+}
+
+/*Plans - Background*/
+
+.plan-free-bg{
+    background-color: #FFFFFF;
+    color: #000 !important;
+}
+
+.plan-beginner-bg{
+    background-color: #0CE396;
+    color: #ffffff !important;
+}
+
+.plan-intermediate-bg{
+    background-color: #28DADE;
+    color: #ffffff !important;
+}
+
+.plan-advanced-bg{
+    background-color: #FF7A21;
+    color: #ffffff !important;
+}
+
+.plan-personal-bg{
+    background-color: #000;
+    color: #ffffff !important;
+}
+
+/*Plans - Text*/
+
+.plan-free-text{
+
+}
+
+.plan-beginner-text{
+
+}
+
+.plan-intermediate-text{
+
+}
+
+.plan-advanced-text{
+
+}
+
+.plan-personal-text{
+
+}
+
+/*Owner*/
+
+.plan-owner-bg{
+    background-color: #ffffff;
+    color: #1F2D3D !important;
+}
+
+.plan-owner-text{
+    color: #1F2D3D !important;
+}
